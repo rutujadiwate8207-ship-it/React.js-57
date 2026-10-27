@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./Pages/Home.jsx";
-import About from "./Pages/About.jsx";
-import Product from "./Pages/Product.jsx";
-import Contact from "./Pages/Contact.jsx";
-import Product_det from "./Pages/Product_det.jsx";
-import Register from "./Pages/Register.jsx";
-import Login from "./Pages/Login.jsx";
-import Profile from "./Pages/Profile.jsx";
-import Cart from "./Pages/Cart.jsx";
-import Checkout from "./Pages/Checkout.jsx";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Product from "./pages/Product";
+import Contact from "./pages/Contact";
+import Product_det from "./pages/Product_det";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -19,10 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
-        <Route
-          path="/Product_det/:product_id"
-          element={<Product_det />}
-        />
+        <Route path="/Product_det/:product_id" element={<Product_det />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />

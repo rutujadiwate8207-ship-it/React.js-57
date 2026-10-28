@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import Product from "./Pages/Product";
 import Contact from "./Pages/Contact";
 import Product_det from "./Pages/Product_det";
-import Register from "./Pages/Register";
+import Register from "./Pages/register";
 import Login from "./Pages/Login";
 import Profile from "./Pages/Profile";
 import Cart from "./Pages/Cart";
